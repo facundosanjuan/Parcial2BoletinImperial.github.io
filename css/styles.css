@@ -1,0 +1,143 @@
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "SF Distant Galaxy";
+  src: url("../fonts/SF Distant Galaxy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p{
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+
+h2{
+  font-family: "SF Distant Galaxy", sans-serif;
+}
+
+
+.border{
+  border-width: 3px !important; 
+}
+        
+.iframe-fondo iframe {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.carousel-container {
+position: relative;
+z-index:10;
+}
+
+.iframe-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.fondo_banner_2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  max-height: 100vh; 
+  overflow: hidden;
+}
+
+.fondo_buscados{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  max-height: 100vh; 
+  object-fit: cover;
+  overflow: hidden;
+  
+}
+.img-fondo-md{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  max-height: 100vh; 
+  object-fit: fill;
+  overflow: hidden;
+}
+
+.fondo_nave{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  max-height: 100vh; 
+  overflow: hidden;
+}
+
+.buscados {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; 
+  overflow: hidden;
+  z-index: 1; 
+}
+
+.card {
+  position: relative; 
+  z-index: 2;
+  width: 18rem;
+}
+
+.deathstar{
+  max-width: 300px;
+}
+
+
+.texto{
+  background-color: rgba(0, 0, 0, 0.434);
+}
+
+.tituloBuscados{
+  background-color: rgba(0, 0, 0, 0.657);
+  border: 1px solid rgba(255, 0, 0, 0.333); 
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.469), 0 0 20px red, 0 0 30px orange; 
+  border-radius: 5px; 
+}
+
+:root {
+  --bs-success-text-emphasis: #000000; 
+}
